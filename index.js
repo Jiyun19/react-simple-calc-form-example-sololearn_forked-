@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 
@@ -11,7 +11,7 @@ function AddForm() {
   }
 
   function handleSubmit(e) {
-    setSum(sum + Number(num));
+    setSum(sum+ Number(num));
     e.preventDefault();
   }
 
@@ -22,8 +22,8 @@ function AddForm() {
   </form>;
 }
 
-const el = <AddForm />; 
+const el =<AddForm />;
 ReactDOM.render(
-  el, 
-  document.getElementById('root')
+  el, document.getElementById('root')
 );
+
